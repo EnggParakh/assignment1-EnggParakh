@@ -11,6 +11,6 @@ public class Gravity {
 		double time=scanner.nextDouble();
 		double Gravity=9.8;
 		double Speed=0.5*Gravity*time*time;
-		System.out.println("Speed of the object at" + time + "seconds after its release is" + Speed + "and the distance travelled by object in time" + time + "seconds after the release is" + Gravity*time);
+		System.out.println("Speed of the object at " + time + " seconds after its release is " + Gravity*time + " and the distance has travelled in the " + time + " seconds after the release is " + Speed);
 	}
 }
